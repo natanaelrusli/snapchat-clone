@@ -1,0 +1,21 @@
+.webcamCapture {
+    position: relative;
+}
+
+.webcamCapture__button {
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.webcamCapture__closeButton {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 24px !important;
+}
